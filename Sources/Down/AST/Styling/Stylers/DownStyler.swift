@@ -41,7 +41,7 @@ open class DownStyler: Styler {
         .foregroundColor: colors.listItemPrefix]
     }
     
-    private var delegate: AsyncImageLoadDelegate?
+    weak var delegate: AsyncImageLoadDelegate?
 
     // MARK: - Life cycle
 

@@ -29,7 +29,7 @@ final public class AsyncImageLoad: NSTextAttachment
     
     public var maximumDisplayWidth: CGFloat?
     
-    public var delegate: AsyncImageLoadDelegate?
+    public weak var delegate: AsyncImageLoadDelegate?
     
     weak var textContainer: NSTextContainer?
     
