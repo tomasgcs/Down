@@ -33,7 +33,7 @@ final public class AsyncImageLoad: NSTextAttachment
     
     weak var textContainer: NSTextContainer?
     
-    private var originalImageSize: CGSize?
+    public var originalImageSize: CGSize?
     
     public init(imageURL: URL? = nil, delegate: AsyncImageLoadDelegate? = nil)
     {
