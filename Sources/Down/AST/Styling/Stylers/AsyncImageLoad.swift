@@ -16,7 +16,7 @@ import AppKit
 
 #endif
 
-public protocol AsyncImageLoadDelegate
+public protocol AsyncImageLoadDelegate: NSObject
 {
     func textAttachmentDidLoadImage(textAttachment: AsyncImageLoad, displaySizeChanged: Bool)
 }
